@@ -197,7 +197,7 @@ help.run = function(args) {
     }
 
     if (!found)
-        send('No CMD with name "' + args[1] + '" found, use\n' + any + 'list to see all the CMDs');
+        send('No CMD with name "' + args[1] + '" found, use\n' + any + 'help to see all the CMDs');
 };
 
 var say = new cmd('Say', '[msg]', 'A CMD that makes me say something', true);
